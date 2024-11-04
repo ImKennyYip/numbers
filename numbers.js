@@ -1,6 +1,6 @@
 const msg = new SpeechSynthesisUtterance();
 msg.lang = "en-GB";
-const NUMBER_LIMIT = 99999;
+const NUMBER_LIMIT = 9999;
 const DIGIT_LIMIT = String(NUMBER_LIMIT).length;
 let digitCount = 0;
 let randomNumber = "0";
