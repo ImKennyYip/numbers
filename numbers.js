@@ -39,6 +39,7 @@ window.onload = function() {
         else if (e.code == "Backspace" && digitCount > 0) {
             inputNumber = inputNumber.slice(0, -1);
             inputNumberDisplay.removeChild(inputNumberDisplay.lastChild);
+            backspaceSound.play();
             digitCount--;
             incorrectDisplay.innerText = "";
         }
